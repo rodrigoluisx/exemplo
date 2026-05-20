@@ -1,12 +1,13 @@
 <html>
     <head>
         <title>titulo da pagina</title>
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
         <h1>conteudo</h1>
         <h2>conteudo 2</h2>
         <p>sobre nos</p>
-        <img src="https://www.estado.rs.gov.br/upload/recortes/201709/14191716_1268024_GDO.jpg" alt="">
+        <img src="https://www.estado.rs.gov.br/upload/recortes/201709/14191716_1268024_GDO.jpg" alt="" width="200" height="200"> 
         <ul>
             <li>turismo 1</li>
             <li>turismo 2</li>
@@ -18,18 +19,18 @@
             <li>turismo 3</li>
         </ol>
         <a href="https://www.youtube.com/"></a>
-        <form action="./sucesso.html"> 
-            <h1>cadastro</h1>
-            <label>nome:</label>
-            <input type="text"name="nome">
+        <form action="./sucesso.html" class=form> 
+            <h1 id="tituloform">cadastro</h1>
+            <label class="textlabel">nome:</label>
+            <input class="campotexto" type="text"name="nome">
             <br>
-            <label>email:</label>
-            <input type="email"name="email">
+            <label class="textlabel">email:</label>
+            <input class="campotexto" type="email"name="email">
             <br>
-            <label>senha:</label>
-            <input type="password"name="senha">
+            <label class="textlabel">senha:</label>
+            <input class="campotexto" type="password"name="senha">
             <br>
-            <button type="submit">enviar</button>
+            <button id="bnenviar" type="submit">enviar</button>
         </form>
     </body>
     <footer>
