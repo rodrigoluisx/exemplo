@@ -172,3 +172,27 @@ footer{
 .imagemsobre:hover{
     transform:scale(1.2);
 }
+.imagem-centro{
+     display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-top:30px;
+    margin-bottom:40px;
+}
+.imagem-centro img{
+     width:100%;
+    height:400px;
+    object-fit:cover
+}
+.imagem-centro{
+    background:white;
+    width:600px;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+.imagem-centro:hover{
+ transform:scale(1.05);
+}
