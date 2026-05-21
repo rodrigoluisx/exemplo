@@ -1,39 +1,76 @@
 <html>
-    <head>
-        <title>titulo da pagina</title>
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <h1>conteudo</h1>
-        <h2>conteudo 2</h2>
-        <p>sobre nos</p>
-        <img src="https://www.estado.rs.gov.br/upload/recortes/201709/14191716_1268024_GDO.jpg" alt="" width="200" height="200"> 
+<head>
+    <title>ExploreRS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="topo">
+        <h1>ExploreRS</h1>
+        <h2>Conheça o Rio Grande do Sul</h2>
+        <p>
+            Nossa missão é promover o turismo no Rio Grande do Sul
+            e divulgar suas belezas naturais e culturais.
+        </p>
+    </header>
+    <nav class="navbar">    
+        <a href="catalogo.html">Destinos</a>
+        <a href="sobre.html">Sobre Nós</a>
+        <a href="login.html">Login</a>
+        <a href="cadastro.html">Cadastro</a>
+    </nav>
+    <section class="banner">
+        <img
+        class="imagem-centro"
+            src="./imagens/logo.png"
+            alt="Rio Grande do Sul"
+            width="500"
+            height="400"
+        >
+    </section>
+    <section class="sobre-inicio">
+        <h2>Destinos em destaque:</h2>
+        <p>
+            Descubra cidades incríveis, gastronomia, cultura,
+            natureza e experiências únicas no Rio Grande do Sul.
+        </p>
         <ul>
-            <li>turismo 1</li>
-            <li>turismo 2</li>
-            <li>turismo 3</li>
+            <li>Gramado</li>
+            <li>Canela</li>
+            <li>Nova Petropolis</li>
+            
         </ul>
-          <ol>
-            <li>turismo 1</li>
-            <li>turismo 2</li>
-            <li>turismo 3</li>
-        </ol>
-        <a href="https://www.youtube.com/"></a>
-        <form action="./sucesso.html" class=form> 
-            <h1 id="tituloform">cadastro</h1>
-            <label class="textlabel">nome:</label>
-            <input class="campotexto" type="text"name="nome">
-            <br>
-            <label class="textlabel">email:</label>
-            <input class="campotexto" type="email"name="email">
-            <br>
-            <label class="textlabel">senha:</label>
-            <input class="campotexto" type="password"name="senha">
-            <br>
-            <button id="bnenviar" type="submit">enviar</button>
-        </form>
-    </body>
+    </section>
+    <div class="cards">
+        <div class="card">
+            <img src="https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-gramado-capa2019-04-820x430.jpg" alt="Gramado">
+            <h2>Gramado</h2>
+            <p>
+                Cidade famosa pelo clima europeu,
+                chocolates e turismo romântico.
+            </p>
+        </div>
+        <div class="card">
+            <img src="https://cdn-clubecandeias.s3.sa-east-1.amazonaws.com/uploads/2016/06/catedral-de-pedra-canela-rs-clube-candeias.jpg" alt="Canela">
+            <h2>Canela</h2>
+            <p>
+                Conhecida pelas paisagens naturais,
+                cachoeiras e parques ecológicos.
+            </p>
+        </div>
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Nova_Petropolis%2C_Rio_Grande_do_Sul%2C_Brazil..jpg/1280px-Nova_Petropolis%2C_Rio_Grande_do_Sul%2C_Brazil..jpg" alt="Torres">
+            <h2>Nova Petropolis</h2>
+            <p>
+                Destino encantador com arquitetura alemã,
+                jardins e cultura tradicional.
+            </p>
+        </div>
+    </section>
+    </div>
     <footer>
-        <p>conteudo final</p>
+        <p>
+            ExploreRS
+        </p>
     </footer>
+</body>
 </html>
